@@ -1,1 +1,15 @@
 How can you use the staging area to make sure you have one commit per logical change?
+I can used git diff and git diff --staged to check the changes between commits. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches can be really useful when trying to implement a new feature or adding an experimental feature that is not yet part of the production codebase. Branches are also really useful for compartmentalization. You can easily switch between implementing different parts of the project by checking out different branches!
+
+
+How do the diagrams help you visualize the branch structure?
+Diagrams helped tremendously in visualization because I've intuitively learned about branches and reachability that way.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+By merging, we take all changes that were done for two branches and combine them together. One of the branches used in the commit will now be the label of the new merged branch. We represent it in diagrams because...that's the intuitive way? We're basically visualizing the merging of two branches into one. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pro of Git's automatic merging is that for merging commits that are without a doubt non-conflicting, it can be very convenient. Whenever a merge conflict arises though, we have to merge manually. This ensures that we merge two commits the way we intend them to; Git not trying to guess which version of the code we want to keep is actually a good thing!

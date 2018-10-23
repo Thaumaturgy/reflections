@@ -7,4 +7,7 @@ This lessens confusion when working in a team. Pulling changes from team members
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Forks - used when cloning repos in GitHub unto the user's GitHub account
 Clones - clones repos from the server to local machine. Git remote is setup automatically.
-Branches - totally irrelevant to the first two. Used when developing risky or experimental features.  
+Branches - totally irrelevant to the first two. Used when developing risky or experimental features.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+This is so we do not need a constant connection to the service hosting our online repo. We will be able to work with the remote repo (sort of) even when offline. For example, it is useful when I am about to board a plane.
